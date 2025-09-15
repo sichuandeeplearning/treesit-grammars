@@ -34,11 +34,9 @@
     (html "html.tar.gz" "用于HTML标记语言支持")
     
     ;; 配置和脚本
-    (yaml "yaml.tar.gz" "用于YAML配置文件支持")
     (bash "bash.tar.gz" "用于Bash脚本支持")
     (cmake "cmake.tar.gz" "用于CMake构建脚本支持")
     (dockerfile "dockerfile.tar.gz" "用于Dockerfile支持")
-    (toml "toml.tar.gz" "用于TOML配置文件支持")
     
     ;; 其他语言（可选）
     (rust "rust.tar.gz" "用于Rust语言支持")

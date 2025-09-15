@@ -3,7 +3,7 @@
 # Tree-sitter 语法包编译脚本
 # 从源码tar.gz包编译生成.so文件
 
-set -e
+# set -e  # 注释掉，避免编译失败时退出脚本
 
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 SOURCE_PACKAGES_DIR="$SCRIPT_DIR/packages"
