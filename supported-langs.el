@@ -75,8 +75,8 @@ DESCRIPTION: 语言描述"
   (unless (assoc language treesit-local-supported-languages)
     (add-to-list 'treesit-local-supported-languages 
                  (list language package-file description))
-    (message "✅ 已添加语言支持: %s" language))
-  (message "⚠️  语言 %s 已存在" language))
+    (message "✅ Language support added: %s" language))
+  (message "⚠️  Language %s already exists" language))
 
 (provide 'supported-langs)
 
